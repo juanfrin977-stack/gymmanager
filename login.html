@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Iniciar sesión - GymManager</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>GymManager</h1>
+
+        <nav>
+
+            <a href="index.php">Inicio</a>
+
+            <a href="clases.php">Clases</a>
+
+            <a href="contacto.php">Contacto</a>
+
+            <a href="login.html">Iniciar sesión</a>
+
+            <a href="registro.html">Crear cuenta</a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="reserva">
+
+        <h2>Iniciar sesión</h2>
+
+        <p>
+            Accede a tu cuenta para gestionar tus reservas.
+        </p>
+
+
+        <form action="iniciar_sesion.php" method="post">
+
+            <label for="email">
+                Correo electrónico
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+
+            <label for="password">
+                Contraseña
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                required
+            >
+
+
+            <button type="submit" class="boton">
+                Iniciar sesión
+            </button>
+
+        </form>
+
+
+        <p>
+
+            ¿No tienes una cuenta?
+
+            <a href="registro.html">
+                Crear cuenta
+            </a>
+
+        </p>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 GymManager
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
